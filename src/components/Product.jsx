@@ -14,7 +14,7 @@ function Product({post}) {
       </div>
 
       <div>
-        <img src={post.image}/>
+        <img src={post.image}/> 
       </div>
 
       <div>
