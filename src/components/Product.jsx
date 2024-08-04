@@ -1,6 +1,8 @@
 import React from 'react'
+import { useSelector } from 'react-redux';
 
 function Product({post}) {
+    const cart = useSelector((state) => state)
     const selected = false;
   return (
     <div>
@@ -21,11 +23,13 @@ function Product({post}) {
         <p>{post.price}</p>
       </div>
 
-      <button>
+       
+
+      {/* <button>
         {
             selected ? <p>Remove Item</p> : <p>Add to Cart</p>
         }
-      </button>
+      </button> */}
 
     </div>
   )
