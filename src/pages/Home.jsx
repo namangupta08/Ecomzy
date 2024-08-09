@@ -30,18 +30,18 @@ const Home = () => {
   return (
     <div>
        {
-        loading ? <Spinner/> : 
+        loading ? <Spinner className='flex justify-center items-center'/> : 
         posts.length > 0 ? 
         (
-            <div>
+            <div className='grid grid-cols-4 max-w-6xl p-2 mx-auto space-y-10 space-x-5 min-h-[80vh]'>
                 {posts.map((post) => (
                     <Product key={post.id} post={post}/>
                 ))}
             </div>
         ) : 
         (
-            <div>
-                <p>No data found</p>
+            <div className='w-screen h-screen flex justify-center items-center'>
+                <p className="font-bold">No data found</p>
             </div>
         )
        }
