@@ -1,31 +1,19 @@
-# React & Tailwind CSS Starter Pack
+# Ecomzy - Shopping Cart Application
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+**Ecomzy** is a web-based shopping cart application that allows users to browse and purchase products online seamlessly. Built using React, Redux, and Tailwind CSS, Ecomzy offers an intuitive shopping experience with features like adding/removing items from the cart, viewing the total cart amount, and a checkout option.
 
-## Usage
+## Features
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+- **Product Browsing**: Users can browse through a wide range of products.
+- **Cart Management**: Add or remove items from the shopping cart.
+- **Total Amount Calculation**: View the total amount of items in the cart.
+- **Responsive Design**: Fully responsive layout built with Tailwind CSS.
+- **Notifications**: Toast notifications for successful actions like adding or removing items from the cart.
+- **Routing**: Seamless navigation through different pages using React Router.
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
+## Tech Stack
 
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
+- **Frontend**: React, Tailwind CSS
+- **State Management**: Redux
 
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
-
-## Contributing
-
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.# Ecomzy
